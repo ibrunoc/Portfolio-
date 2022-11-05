@@ -18,7 +18,7 @@ export function Header() {
 		<nav class="desktop">
             <div><img src='' className="logo" alt='imagem'/></div>
 			<ul>
-				<li><Link className='Select' to="">&lt;Bruno Costa  /&gt;</Link></li>
+				<li><Link className='Select' to="">&lt; Bruno Costa  /&gt;</Link></li>
 				<li><Link to="">Sobre mim</Link></li>
 				<li><Link to="">Skills</Link></li>
 				<li><Link to="">Projetos</Link></li>
@@ -32,7 +32,7 @@ export function Header() {
 				<ul class="nav-menu">
                     <img src={Img} className="logoMobile" alt='imagem'/>
 					<li class="nav-item">
-						<Link className='nav-link Select' to="">&lt;Bruno Costa  /&gt;</Link>
+						<Link className='nav-link Select' to="">&lt; Bruno Costa  /&gt;</Link>
 					</li>
 
 					<li class="nav-item">
