@@ -15,7 +15,7 @@ export function Header() {
   return (
     <>
     <header>	    
-		<nav class="desktop">
+	<nav class="desktop">
             <div><img src='' className="logo" alt='imagem'/></div>
 			<ul>
 				<li><Link className='Select' to="">&lt; Bruno Costa  /&gt;</Link></li>
@@ -63,8 +63,8 @@ export function Header() {
                     </div>     
                 </button>                                       
             </nav>
-		</div>
-	</header>
+	</div>
+    </header>
     </>
   );
 }
